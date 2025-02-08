@@ -1,0 +1,13 @@
+1. Initialize fastest_time to a large number (e.g., infinity) and fastest_route to 0.
+2. Initialize route_counter to 1.
+3. While the user wants to enter more routes:
+   a. Prompt for distance in miles.
+   b. Validate distance (must be greater than 0).
+   c. Prompt for speed in miles per hour.
+   d. Validate speed (must be greater than 0).
+   e. Calculate time in minutes using the formula: time = (distance / speed) * 60.
+   f. Display the time for the current route.
+   g. If the current route's time is less than fastest_time:
+      i. Update fastest_time and fastest_route.
+   h. Ask if the user wants to enter more routes.
+4. Display the fastest route and its time.
